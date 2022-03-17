@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body {
+  background-color: #F0F3BD;
+  font-family: "Courier";
+  color: #02C39A;
+  font-size: 16px;
+  line-height: 1;
+}
+
+H1 {
+  font-family: 'Fredoka', sans-serif;;
+  color: #05668D;
+  font-size: 40px;
+  line-height: 2;
+  font-weight: bolder;
+}
+
+H2 {
+  font-family: 'Fredoka', sans-serif;
+  color: #028090;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #00A896;
+  font-weight: bold;
+  width: 30px;
+}
+
+i {
+  font-size: 40px;
+  line-height: 2;
+  margin: auto 40px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #05668D;
+  font-weight: bold
+}
+
+.card-white {
+  background-color: white;
+  width: 700px;
+  margin: 20px auto;
+  padding: 32px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.container {
+
+  margin: 40px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+}
+
+.list-inline li {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+}
+
+.ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container .card-white {
+    width: 700px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+  }
+}
+
+@media (max-width: 720px) {
+  .container .card-white {
+    width: 500px;
+    /* margin-left: 4%;
+    margin-right: 4%; */
+  }
+}
+
+@media (max-width: 540px) {
+  .container .card-white {
+    width: 300px;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+  }
+}
+
+@media (max-width: 540px) {
+  .container .card-white {
+    width: 300px;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+  }
+}
